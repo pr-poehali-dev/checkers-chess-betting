@@ -22,6 +22,9 @@ const App = () => (
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/profile" element={<Profile />} />
+          {/* Добавляем маршруты для игр */}
+          <Route path="/game/chess/:id" element={<NotFound />} />
+          <Route path="/game/checkers/:id" element={<NotFound />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

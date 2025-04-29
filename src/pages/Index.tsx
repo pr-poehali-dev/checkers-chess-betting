@@ -312,10 +312,10 @@ const Index = () => {
             <div>
               <h3 className="text-lg font-bold mb-4">Игры</h3>
               <ul className="space-y-2 text-gamegreen-100">
-                <li><Link to="/game/chess/money" className="hover:text-white">Шахматы на деньги</Link></li>
-                <li><Link to="/game/checkers/money" className="hover:text-white">Шашки на деньги</Link></li>
-                <li><Link to="/game/chess/training" className="hover:text-white">Тренировка по шахматам</Link></li>
-                <li><Link to="/game/checkers/training" className="hover:text-white">Тренировка по шашкам</Link></li>
+                <li><Link to="/game/chess/chess-money" className="hover:text-white">Шахматы на деньги</Link></li>
+                <li><Link to="/game/checkers/checkers-money" className="hover:text-white">Шашки на деньги</Link></li>
+                <li><Link to="/game/chess/chess-training" className="hover:text-white">Тренировка по шахматам</Link></li>
+                <li><Link to="/game/checkers/checkers-training" className="hover:text-white">Тренировка по шашкам</Link></li>
               </ul>
             </div>
             
